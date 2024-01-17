@@ -8,5 +8,3 @@ COPY app.js test.js package.json /app/
 
 # Ejecutar npm install
 RUN npm install
-
-CMD ["node", "app.js"]
