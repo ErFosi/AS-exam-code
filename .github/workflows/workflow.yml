@@ -27,5 +27,6 @@ jobs:
       - name: Construir imagen Docker
         uses: cloudposse/github-action-docker-compose-test-run@main
         with:
+          file: docker-compose.yml
           service: app
-          compose-file: docker-compose.yml
+          
