@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Copiar tods ls json al directorio /app
 COPY app.js /app
-COPY  test.js /app
+COPY test.js /app
 COPY package.json /app
 # Ejecutar npm install
 
